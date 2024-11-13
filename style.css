@@ -103,7 +103,7 @@ header span,
 header img {
     display: block;
     float: none;
-    margin: 0 0 1em 1em;
+    margin: 0 0 0.5em 0.5em;
     max-height: 15%;
     max-width: 40%;
     position: relative;
