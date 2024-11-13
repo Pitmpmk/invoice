@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let j = 3; j <= 9; j++) {
             if (cells[j].innerText.trim() === "✔") {
                 cumplimientoCorrecto++;
-            } else if (cells[j].innerText.trim() === "❌") {
+            } else if (cells[j].innerText.trim() === "X") {
                 cumplimientoIncorrecto++;
             }
         }
