@@ -236,3 +236,45 @@ function onContentLoad() {
 }
 
 window.addEventListener && document.addEventListener('DOMContentLoaded', onContentLoad);
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const table = document.getElementById("tablaCumplimiento");
+    const rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+
+    const totalFilas = rows.length; // Cuenta el total de filas sin incluir el encabezado
+    let cumplimientoCorrecto = 0;
+    let cumplimientoIncorrecto = 0;
+
+    // Recorre cada fila de la tabla
+    for (let i = 0; i < totalFilas; i++) {
+        const cells = rows[i].getElementsByTagName("td");
+        
+        // Recorre solo las columnas 4 a 10 (índices 3 a 9)
+        for (let j = 3; j <= 9; j++) {
+            if (cells[j].innerText.trim() === "✔") {
+                cumplimientoCorrecto++;
+            } else if (cells[j].innerText.trim() === "❌") {
+                cumplimientoIncorrecto++;
+            }
+        }
+    }
+
+    const totalChecks = cumplimientoCorrecto + cumplimientoIncorrecto;
+    const porcentajeCumplimiento = totalChecks > 0 ? (cumplimientoCorrecto / totalChecks) * 100 : 0;
+
+    // Actualizar los valores en la tabla de resumen
+    document.getElementById("totalFilas").innerText = totalFilas;
+    document.getElementById("cumplimientoCorrecto").innerText = cumplimientoCorrecto;
+    document.getElementById("cumplimientoIncorrecto").innerText = cumplimientoIncorrecto;
+    document.getElementById("porcentajeCumplimiento").innerText = porcentajeCumplimiento.toFixed(2);
+});
