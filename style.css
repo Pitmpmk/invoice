@@ -187,7 +187,7 @@ table.inventory td {
     vertical-align: middle;
 }
 
-table { font-size: 50%; table-layout: fixed; width: 100%; }
+table { font-size: 50%; table-layout: auto; width: 100%; }
 table { border-collapse: separate; border-spacing: 2px; }
 th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: center; }
 th, td { border-radius: 0.25em; border-style: solid; }
