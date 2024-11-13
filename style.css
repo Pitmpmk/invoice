@@ -275,22 +275,3 @@ tr:hover .cut {
 
 
 
-
-
-/* Estilo para el encabezado */
-@media print {
-    body {
-        margin-top: 5cm; /* Espacio para el encabezado fijo */
-    }
-
-    .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 5cm; /* Altura del encabezado */
-        background: url('https://drive.google.com/uc?export=view&id=1Zi0N3V1kAG1lPvM6s4HMYayZDZuUaOLw') no-repeat center;
-        background-size: contain;
-        margin: 2cm;
-    }
-}
