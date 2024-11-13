@@ -130,7 +130,7 @@ article,
 article address,
 table.meta,
 table.inventory {
-    margin: 0 0 3em;
+    margin: 0 0 0em;
     clear: both;
 }
 
@@ -154,7 +154,7 @@ article address {
 /* table meta & balance */
 table.meta,
 table.balance {
-    float: right;
+    float: left;
     width: 36%;
 }
 
