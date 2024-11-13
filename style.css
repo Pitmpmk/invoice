@@ -201,6 +201,11 @@ aside h1 {
     margin: 0 0 1em;
     border-color: #999;
     border-bottom-style: solid;
+    font-size: 1.2em; /* Tamaño del h1 dentro del aside */
+}
+aside div p {
+    font-size: 0.9em; /* Tamaño del párrafo dentro del aside */
+    line-height: 1.4; /* Espaciado de línea para mejorar legibilidad */
 }
 
 /* javascript */
