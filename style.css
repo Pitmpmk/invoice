@@ -296,7 +296,7 @@ tr:hover .cut {
                 left: 0;
                 right: 0;
                 height: 5cm; /* Altura del encabezado */
-                background: url('URL_DE_TU_IMAGEN_EN_DRIVE') no-repeat center;
+                background: url('https://drive.google.com/drive/folders/1B94MCHmAQSYYAM6zhgjM8tqdkniy-yb2') no-repeat center;
                 background-size: contain;
                 margin: 2cm;
             }
