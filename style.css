@@ -156,6 +156,7 @@ table.meta,
 table.balance {
     float: left;
     width: 36%;
+    font-weight: bold;
 }
 
 table.meta:after,
