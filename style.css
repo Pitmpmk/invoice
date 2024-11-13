@@ -277,33 +277,20 @@ tr:hover .cut {
 
 
 
-/* Estilos generales */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 2cm 2cm 0; /* Márgenes de 2 cm arriba y a los lados */
-            padding: 0;
-        }
+/* Estilo para el encabezado */
+@media print {
+    body {
+        margin-top: 5cm; /* Espacio para el encabezado fijo */
+    }
 
-        /* Estilo para el encabezado */
-        @media print {
-            body {
-                margin-top: 5cm; /* Espacio para el encabezado fijo */
-            }
-
-            .header {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                height: 5cm; /* Altura del encabezado */
-                background: url('https://drive.google.com/file/d/1Zi0N3V1kAG1lPvM6s4HMYayZDZuUaOLw/view?usp=sharing') no-repeat center;
-                background-size: contain;
-                margin: 2cm;
-            }
-        }
-
-        /* Espaciado de contenido para evitar solapamiento con el encabezado */
-        .content {
-            margin-top: 6cm; /* Espacio después del encabezado */
-        }
-
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5cm; /* Altura del encabezado */
+        background: url('https://drive.google.com/uc?export=view&id=1Zi0N3V1kAG1lPvM6s4HMYayZDZuUaOLw') no-repeat center;
+        background-size: contain;
+        margin: 2cm;
+    }
+}
