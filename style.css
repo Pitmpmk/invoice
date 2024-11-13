@@ -273,3 +273,37 @@ tr:hover .cut {
     font-size: 60%;
 }
 
+
+
+
+
+/* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2cm 2cm 0; /* Márgenes de 2 cm arriba y a los lados */
+            padding: 0;
+        }
+
+        /* Estilo para el encabezado */
+        @media print {
+            body {
+                margin-top: 5cm; /* Espacio para el encabezado fijo */
+            }
+
+            .header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 5cm; /* Altura del encabezado */
+                background: url('URL_DE_TU_IMAGEN_EN_DRIVE') no-repeat center;
+                background-size: contain;
+                margin: 2cm;
+            }
+        }
+
+        /* Espaciado de contenido para evitar solapamiento con el encabezado */
+        .content {
+            margin-top: 6cm; /* Espacio después del encabezado */
+        }
+
