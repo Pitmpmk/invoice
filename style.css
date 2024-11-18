@@ -283,3 +283,23 @@ tr:hover .cut {
 
 
 
+
+
+
+
+.signature-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .signature-box {
+      text-align: center;
+      width: 45%; /* Ajusta el ancho de cada sección si es necesario */
+    }
+
+    .signature-line {
+      border-top: 1px solid #000;
+      margin-bottom: 5px;
+    }
