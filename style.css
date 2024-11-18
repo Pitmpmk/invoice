@@ -300,6 +300,6 @@ tr:hover .cut {
 }
 
 .signature-line {
-  border-top: 1px solid #808080; /* Cambia el color de la línea a gris plomo ratón */
-  margin-bottom: 4px;
+  border-top: 1px solid #999; /* Cambia el color de la línea a gris plomo ratón */
+  margin-bottom: 3px;
 }
