@@ -387,14 +387,14 @@ tr:hover .cut {
 .section {
     margin-top: 20px;
     font-family: Arial, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.5;
 }
 
 /* Estilo para los títulos de las secciones */
 .section-title {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
     text-decoration: underline;
     margin-bottom: 10px;
 }
