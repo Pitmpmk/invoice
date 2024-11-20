@@ -366,7 +366,7 @@ tr:hover .cut {
 
 /* Estilo para los nombres */
 .details-name {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Estilo para los cargos */
