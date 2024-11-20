@@ -361,3 +361,16 @@ tr:hover .cut {
     margin-top: 10px;
     border-bottom: 0.1cm solid black;
 }
+
+
+
+/* Estilo para los nombres */
+.details-name {
+    font-weight: bold;
+}
+
+/* Estilo para los cargos */
+.details-position {
+    font-style: italic;
+    font-weight: bold;
+}
