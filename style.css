@@ -303,3 +303,61 @@ tr:hover .cut {
   border-top: 1px solid #999; /* Cambia el color de la línea a gris plomo ratón */
   margin-bottom: 3px;
 }
+
+
+
+
+
+
+
+
+
+/* Estilo para el contenedor principal */
+.header-container {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Estilo para el logo alineado a la izquierda */
+.logo {
+    float: left;
+    width: 3cm;
+    height: 2cm;
+}
+
+/* Estilo para centrar el texto del título */
+.title-container {
+    text-align: center;
+    margin-left: 3.5cm; /* Espacio para no superponer el logo */
+}
+
+/* Estilo para el texto del título principal */
+.title-main {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Estilo para el texto del identificador */
+.title-sub {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Estilo para los detalles alineados a la izquierda */
+.details {
+    clear: both; /* Limpia flotantes para que el contenido se alinee correctamente */
+    margin-top: 20px;
+}
+
+/* Estilo para cada línea de detalle */
+.details div {
+    font-weight: bold;
+}
+
+/* Estilo para la línea divisoria */
+.divider {
+    margin-top: 10px;
+    border-bottom: 0.1cm solid black;
+}
