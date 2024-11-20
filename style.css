@@ -377,3 +377,33 @@ tr:hover .cut {
     text-align: left;   /* Centrado con respecto al nombre */
     margin-left: 4em;   /* Ajusta el margen para alinear al nombre */
 }
+
+
+
+
+
+
+/* Estilo general para las secciones */
+.section {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Estilo para los títulos de las secciones */
+.section-title {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el contenido del texto */
+.section-content {
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+    white-space: pre-line; /* Respeta saltos de línea */
+}
+
