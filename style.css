@@ -322,9 +322,13 @@ tr:hover .cut {
 
 /* Estilo para el logo alineado a la izquierda */
 .logo {
-    float: left;
-    width: 4cm;
+    position: absolute; /* Permite posicionar el logo detrás del texto */
+    top: 0; /* Ajusta la posición del logo */
+    left: 0;
+    width: 4cm; /* Tamaño del logo */
     height: 3cm;
+    opacity: 0.1; /* Efecto de transparencia */
+    z-index: 0; /* Envía el logo al fondo */
 }
 
 /* Estilo para centrar el texto del título */
