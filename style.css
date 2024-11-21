@@ -334,7 +334,7 @@ tr:hover .cut {
 /* Estilo para centrar el texto del título */
 .title-container {
     text-align: center;
-    margin-left: 0; /* Espacio para no superponer el logo */
+    margin-left: 2cm; /* Espacio para no superponer el logo */
 }
 
 /* Estilo para el texto del título principal */
