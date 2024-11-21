@@ -323,26 +323,26 @@ tr:hover .cut {
 /* Estilo para el logo alineado a la izquierda */
 .logo {
     float: left;
-    width: 3cm;
-    height: 2cm;
+    width: 4cm;
+    height: 3cm;
 }
 
 /* Estilo para centrar el texto del título */
 .title-container {
     text-align: center;
-    margin-left: 3.5cm; /* Espacio para no superponer el logo */
+    margin-left: 2cm; /* Espacio para no superponer el logo */
 }
 
 /* Estilo para el texto del título principal */
 .title-main {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Estilo para el texto del identificador */
 .title-sub {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Estilo para los detalles alineados a la izquierda */
@@ -358,8 +358,8 @@ tr:hover .cut {
 
 /* Estilo para la línea divisoria */
 .divider {
-    margin-top: 10px;
-    border-bottom: 0.1cm solid black;
+    margin-top: 8px;
+    border-bottom: 0.05cm solid black;
 }
 
 
