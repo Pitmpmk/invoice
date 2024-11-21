@@ -325,7 +325,7 @@ tr:hover .cut {
     position: absolute; /* Permite posicionar el logo detrás del texto */
     
     top: 1cm; /* Ajusta la posición del logo */
-    left: 3cm;
+    left: 2cm;
     width: 4cm; /* Tamaño del logo */
     height: 3cm;
     z-index: -1; /* Envía el logo al fondo */
@@ -334,7 +334,7 @@ tr:hover .cut {
 /* Estilo para centrar el texto del título */
 .title-container {
     text-align: center;
-    margin-left: 2cm; /* Espacio para no superponer el logo */
+    margin-left: 0; /* Espacio para no superponer el logo */
 }
 
 /* Estilo para el texto del título principal */
