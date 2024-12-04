@@ -324,8 +324,8 @@ tr:hover .cut {
 .logo {
     position: absolute; /* Permite posicionar el logo detrás del texto */
     
-    top: 1cm; /* Ajusta la posición del logo */
-    left: 2cm;
+    top: 0; /* Ajusta la posición del logo */
+    left: 1cm;
     width: 4cm; /* Tamaño del logo */
     height: 3cm;
     z-index: -1; /* Envía el logo al fondo */
