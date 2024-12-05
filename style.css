@@ -375,6 +375,8 @@ tr:hover .cut {
 /* Estilo para los nombres */
 .details-name {
     font-weight: normal; /* Elimina la negrita */
+    text-align: left;   /* Centrado con respecto al nombre */
+    margin-left: 5em;   /* Ajusta el margen para alinear al nombre */
 }
 
 /* Estilo para los cargos */
@@ -382,7 +384,7 @@ tr:hover .cut {
     font-style: italic; /* Itálica para el cargo */
     font-weight: bold;  /* Negrita para el cargo */
     text-align: left;   /* Centrado con respecto al nombre */
-    margin-left: 4em;   /* Ajusta el margen para alinear al nombre */
+    margin-left: 5em;   /* Ajusta el margen para alinear al nombre */
 }
 
 
