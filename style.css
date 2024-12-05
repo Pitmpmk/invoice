@@ -347,9 +347,7 @@ tr:hover .cut {
 .title-sub {
     font-weight: bold;
     font-size: 14px;
-    text-align: center; /* Esto alinea el texto horizontalmente */
-    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
-}
+    }
 
 
 
