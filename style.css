@@ -351,38 +351,37 @@ tr:hover .cut {
     width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
 }
 
-/* Estilo para los detalles alineados a la izquierda */
+
+
+
+
+
 .details {
-    clear: both; /* Limpia flotantes para que el contenido se alinee correctamente */
-    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-/* Estilo para cada línea de detalle */
 .details div {
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
-/* Estilo para la línea divisoria */
-.divider {
-    margin-top: 8px;
-    border-bottom: 0.05cm solid black;
-}
-
-
-
-
-/* Estilo para los nombres */
 .details-name {
-    font-weight: normal; /* Elimina la negrita */
+    margin-left: 2em; /* Espacio después del título (Para:, De:, etc.) */
 }
 
-/* Estilo para los cargos */
 .details-position {
-    font-style: italic; /* Itálica para el cargo */
-    font-weight: bold;  /* Negrita para el cargo */
-    text-align: left;   /* Centrado con respecto al nombre */
-    margin-left: 4em;   /* Ajusta el margen para alinear al nombre */
+    margin-left: 4em; /* Espaciado adicional para los títulos de posición */
+    font-style: italic;
+    font-size: 0.9em;
 }
+
+.details-underline {
+    text-decoration: underline;
+}
+
+
 
 
 
