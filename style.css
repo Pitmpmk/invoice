@@ -5,7 +5,7 @@
     font: inherit;
     line-height: inherit;
     list-style: none;
-    margin: 20px;
+    margin: 0;
     padding: 0;
     text-decoration: none;
     vertical-align: top;
@@ -72,7 +72,7 @@ html {
 body {
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0.5in;
+    padding-top: 2in;
     background: #FFF;
     box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
 }
