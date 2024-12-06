@@ -71,11 +71,7 @@ html {
 
 body {
     box-sizing: border-box;
-    margin-top: 2cm; /* Margen de 2 cm arriba */
-    margin-bottom: 2cm; /* Margen de 2 cm abajo */
-    margin-left: 2cm; /* Margen de 2 cm a la izquierda */
-    margin-right: 2cm; /* Margen de 2 cm a la derecha */
-   /* margin: 0 auto;*/
+    margin: 0 auto;
     padding: 0.5in;
     background: #FFF;
     box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
@@ -134,7 +130,8 @@ article,
 article address,
 table.meta,
 table.inventory {
-    margin: 0 0 0em;
+    margin-top: 2cm;
+    /*margin: 0 0 0em;*/
     clear: both;
 }
 
