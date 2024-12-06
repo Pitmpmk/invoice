@@ -414,3 +414,13 @@ tr:hover .cut {
     white-space: pre-line; /* Respeta saltos de línea */
 }
 
+
+
+
+.evidence img {
+    width: 50px; /* Tamaño deseado */
+    height: auto; /* Mantén la proporción */
+    display: block; /* Opcional: Asegura que las imágenes no hereden comportamientos de inline */
+    margin: 5px auto; /* Centrar y espaciar */
+}
+
