@@ -418,9 +418,9 @@ tr:hover .cut {
 
 
 .evidence img {
-    width: 50px; /* Tamaño deseado */
+    width: 70px; /* Tamaño deseado */
     height: auto; /* Mantén la proporción */
-    display: block; /* Opcional: Asegura que las imágenes no hereden comportamientos de inline */
-    margin: 5px auto; /* Centrar y espaciar */
+    display: flex; /* Opcional: Asegura que las imágenes no hereden comportamientos de inline */
+    margin: 2px auto; /* Centrar y espaciar */
 }
 
