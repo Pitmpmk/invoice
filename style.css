@@ -71,7 +71,11 @@ html {
 
 body {
     box-sizing: border-box;
-    margin: 0.5in auto;
+    margin-top: 0.5in;
+    margin-right: auto;
+    margin-bottom: 0.5in;
+    margin-left: auto;
+
     /*margin: 0 auto;*/
     padding: 0.5in;
     background: #FFF;
